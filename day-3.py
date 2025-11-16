@@ -40,4 +40,60 @@
 # | `**=`    | Exponent and assign     | `x **= 3` | `x = x ** 3`  |
 
 
+import math
+print(math.ceil(10/4))
 
+a = 2
+b = 5
+
+print(a ** b)
+
+a = 5
+b = 5
+c = 4
+d = 4
+if a == b or c == d:
+    print("a is not equal to b")
+else:
+    print("a is equal to b")
+
+if not(a == b) and c == d:
+    print("a is not equal to b")
+else:
+    print("a is equal to b")
+
+a = 5
+b = 10
+print(a, b)
+# a = a + 2
+a += 2
+# python uses the left hand value and increment by right hand value and assing it to left hand value
+print(a, b)
+
+# b = b - 3
+b -= 3
+print(b)
+
+# a = a * 2
+a *= 2
+print(a)
+
+# a = a / 2
+a //= 2
+print(a)
+
+# a = a % 3
+# a %= 3
+# print(a)
+
+# a = a ** 7
+a **= 7
+print(a)
+
+
+# problem = both statement should be true for and operator to return true
+# problem = either statement should be true for or operator to return true
+
+
+# aur (hindi mei ) = and
+# ya (hindi mei) = or
